@@ -1,0 +1,32 @@
+{
+    "mashed": {
+        "desc1": "You are kind, good-natured and always thankful. Potatoes don't get softer than this.",
+        "desc2": "Likelihood to cry watching a show: very high",
+        "conclusion": "bonus joke: why do nurses need red crayons? to draw blood"
+    },
+    "chip": {
+        "desc1": "You are sociable, fun-loving and active. You brighten up every social setting with your sense of humour.",
+        "desc2": "Most likely to piss people off with: a bad prank",
+        "conclusion": "bonus joke: what did the doctor say to his patient with a bladder infection? urine trouble!"
+    },
+    "fry": {
+        "desc1": "You are imaginative, creative and artistic. You know how to appreciate all things beautiful.",
+        "desc2": "Favourite word: croissant",
+        "conclusion": "bonus joke: what do you call a handsome runner? dashing"
+    },
+    "tornado": {
+        "desc1": "You are in a constant state of worry and nervousness. A real emotional wreck.",
+        "desc2": "Badly needs: a reminder to breathe",
+        "conclusion": "bonus joke: what's brown and sticky? a stick"
+    },
+    "tater": {
+        "desc1": "You have an underdeveloped personality - a little bit of everything...",
+        "desc2": "Your greatest struggle: making a decision",
+        "conclusion": "bonus joke: why are celebrities so cool? they have many fans"
+    },
+    "hash": {
+        "desc1": "You are reliable, hardworking and punctual. Your perseverance brings you places.",
+        "desc2": "Fun fact: hates soggy food",
+        "conclusion": "bonus joke: why can't you hear the psychiatrist in the toilet? the P is silent"
+    }
+}
