@@ -1,0 +1,138 @@
+:root {
+    background-color: white;
+    font-size: 62.5%; /* using rem to set sizes (instead of px) will be with ref to this*/
+}
+
+@font-face {
+    font-family: 'Eggi'; /* The name you'll use in your CSS */
+    src: url('assets/Eggi-Regular.ttf') format('truetype'); /* Path to the font file */
+    font-weight: normal; /* Optional: Set the font weight */
+    font-style: normal; /* Optional: Set the font style */
+}
+
+* {
+    box-sizing: border-box; /* include border in box sizing*/
+    font-family: 'Eggi';
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 > span {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3.1rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-width: 80%;
+}
+
+
+/* utilities */
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto; /* adds padding to allow the max width to be in center of screen */
+}
+
+.container > * {
+    width: 80%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* html, body {
+    height: 100%;
+    align-items: center;
+} */
+
+
+/* buttons */
+
+.button {
+    font-size: 3rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    text-decoration: none; /* undo default underline for anchor ref */
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    border: 0.4rem solid #000000;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-weight: 550;
+    font-family: 'Eggi';
+    border-radius: 2rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-0.2rem) translateX(-0.2rem);
+    box-shadow: 0.4rem 0.4rem #272727bb;
+}
+
+.button[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+#restartQuiz {
+    position: static;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeImg {
+    max-width: 30rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+
+.end {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adds space above the button */
+}
