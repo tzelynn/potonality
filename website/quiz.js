@@ -53,6 +53,7 @@ let getNewQuestion = () => {
     currentQuestion = availableQuestions[questionCounter];
     question.innerText = currentQuestion.question;
     image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`
+    loadImage(image.src);
     choices.forEach(choice => {
         let choiceNum = choice.dataset.number;
         choice.classList.remove("selected");
@@ -75,6 +76,13 @@ let getNewQuestion = () => {
     quiz.hidden = false;
     quiz.style.display = "flex";
     selectAnswer();
+}
+
+
+async function loadImage(img) {
+    const preloadedImages = await Promise(
+        fetch(img)
+    );
 }
 
 

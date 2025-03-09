@@ -92,7 +92,23 @@ h2 {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
+
+
+#restartQuiz {
+    position: static;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#homeImg {
+    max-width: 30rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
 
 /* buttons */
 
@@ -123,17 +139,3 @@ h2 {
     box-shadow: none;
     transform: none;
 }
-
-#restartQuiz {
-    position: static;
-    justify-content: center;
-    align-items: center;
-}
-
-#homeImg {
-    max-width: 30rem;
-    width: auto;
-    height: auto;
-    margin-bottom: 2rem;
-}
-
