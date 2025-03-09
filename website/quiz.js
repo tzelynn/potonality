@@ -53,7 +53,6 @@ let getNewQuestion = () => {
     currentQuestion = availableQuestions[questionCounter];
     question.innerText = currentQuestion.question;
     image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`
-    loadImage(image.src);
     choices.forEach(choice => {
         let choiceNum = choice.dataset.number;
         choice.classList.remove("selected");
@@ -71,17 +70,20 @@ let getNewQuestion = () => {
     progressBarFull.style.width = `
         ${(questionCounter + 1) / availableQuestions.length * WIDTH}%`
 
-    loader.style.display = "none";
-    progressBar.hidden = false;
-    quiz.hidden = false;
-    quiz.style.display = "flex";
+    
+    loadImage(image.src);
     selectAnswer();
 }
 
 
 async function loadImage(img) {
     const preloadedImages = await Promise(
-        fetch(img)
+        fetch(img).then(resp => {
+            loader.style.display = "none";
+            progressBar.hidden = false;
+            quiz.hidden = false;
+            quiz.style.display = "flex";
+        })
     );
 }
 
