@@ -3,9 +3,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 1rem;
-    width: 35rem;
-    min-width: 40rem;
-    max-width: 60%;
+    width: 80vw;
+    min-width: 35rem;
+    max-width: 45rem;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
