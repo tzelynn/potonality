@@ -130,9 +130,3 @@ h2 {
     margin-bottom: 2rem;
 }
 
-
-.end {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adds space above the button */
-}

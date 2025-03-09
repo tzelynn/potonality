@@ -70,7 +70,7 @@ let generateEndScreen = () => {
     }
 
     let potato = determinePotato();
-    finalImage.src = `assets/final_imgs/${potato}.png`;
+    finalImage.src = `assets/final_imgs/${potato}.PNG`;
     potatoName.innerText = potato;
     desc1.innerText = potatoDesc[potato]["desc1"];
     desc2.innerText = potatoDesc[potato]["desc2"];
@@ -81,13 +81,10 @@ let generateEndScreen = () => {
 }
 
 let determinePotato = () => {
-    if (scores["MIX"] == 2) return "tater";
-    else if (scores["EST"] > 0 &&
-        scores["AGR"] > 0 &&
-        scores["CSN"] > 0 &&
-        scores["OPN"] > 0 &&
-        scores["EXT"] > 0
-    ) return "tater";
+    // if (scores["MIX"] == 2) return "tater";
+    let mixValue = scores["MIX"];
+    let numAboveZero = Object.values(scores).reduce((a, b) => a + (b > 0), 0);
+    if (numAboveZero == 6 || (numAboveZero >= 4 & mixValue == 2)) return "tater";
     let maxKey = Object.entries(scores).reduce((max, [key, value]) => {
         if (value > scores[max] || max === null) {
           max = key;
@@ -101,4 +98,4 @@ let determinePotato = () => {
 
 // endResult.innerText = collectedAnswers;
 
-document.addEventListener('DOMContentLoaded', loadData);
+// document.addEventListener('DOMContentLoaded', loadData);

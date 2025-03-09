@@ -48,7 +48,7 @@ let getNewQuestion = () => {
     questionCounter++;
     currentQuestion = availableQuestions[questionCounter];
     question.innerText = currentQuestion.question;
-    image.src = `assets/qn_imgs/${questionCounter + 1}.png`
+    image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`
     choices.forEach(choice => {
         let choiceNum = choice.dataset.number;
         choice.classList.remove("selected");
@@ -83,7 +83,7 @@ let getPrevQuestion = () => {
     questionCounter--;
     currentQuestion = availableQuestions[questionCounter];
     question.innerText = currentQuestion.question;
-    image.src = `assets/qn_imgs/${questionCounter + 1}.png`
+    image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`
     choices.forEach(choice => {
         let choiceNum = choice.dataset.number;
         choice.classList.remove("selected");
