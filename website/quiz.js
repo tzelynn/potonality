@@ -70,21 +70,19 @@ let getNewQuestion = () => {
         ${(questionCounter + 1) / availableQuestions.length * WIDTH}%`
 
     
-    loadImage(image.src);
+    loadImage(`assets/qn_imgs/${questionCounter + 1}.PNG`);
     selectAnswer();
 }
 
 
 async function loadImage(img) {
-    const preloadedImages = await Promise(
-        fetch(img).then(resp => {
-            image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`;
-            loader.style.display = "none";
-            progressBar.hidden = false;
-            quiz.hidden = false;
-            quiz.style.display = "flex";
-        })
-    );
+    const resp = await fetch(img);
+    await resp.blob();
+    image.src = img;
+    loader.style.display = "none";
+    progressBar.hidden = false;
+    quiz.hidden = false;
+    quiz.style.display = "flex";
 }
 
 
