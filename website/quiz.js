@@ -4,7 +4,7 @@ const navBack = document.getElementById("back")
 const navNext = document.getElementById("next")
 const progressBar = document.getElementById("progressBar");
 const progressBarFull = document.getElementById("progressBarFull");
-const loader = document.getElementById("loader");
+const loader = document.getElementById("loaderContainer");
 const quiz = document.getElementById("quiz");
 const image = document.getElementById("qnImage");
 const WIDTH = 100;
@@ -52,7 +52,6 @@ let getNewQuestion = () => {
     questionCounter++;
     currentQuestion = availableQuestions[questionCounter];
     question.innerText = currentQuestion.question;
-    image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`
     choices.forEach(choice => {
         let choiceNum = choice.dataset.number;
         choice.classList.remove("selected");
@@ -79,6 +78,7 @@ let getNewQuestion = () => {
 async function loadImage(img) {
     const preloadedImages = await Promise(
         fetch(img).then(resp => {
+            image.src = `assets/qn_imgs/${questionCounter + 1}.PNG`;
             loader.style.display = "none";
             progressBar.hidden = false;
             quiz.hidden = false;

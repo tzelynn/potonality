@@ -6,7 +6,7 @@ const desc2 = document.getElementById("desc2");
 const concl = document.getElementById("conclusion");
 const gridContainer = document.getElementById("gridContainer");
 const endContents = document.getElementById("endContents");
-const loader = document.getElementById("loader");
+const loader = document.getElementById("loaderContainer");
 let collectedAnswers = JSON.parse(localStorage.getItem("collectedAnswers"));
 
 let responseMap = [];
