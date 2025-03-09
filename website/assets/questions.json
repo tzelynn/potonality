@@ -5,7 +5,7 @@
         "choice1": "Violently shake the potato awake.",
         "choice2": "Let the poor potato rest for another 15 minutes.",
         "choice3": "Gently wake the lil guy so he doesn't oversleep.",
-        "choice4": "Lightly prod the potato, but allow it a brief repose should the need arise."
+        "choice4": "Lightly prod the potato, but allow it a brief repose if needed."
     },
     {
         "id": "2",
@@ -17,7 +17,7 @@
     },
     {
         "id": "3",
-        "question": "A long list of tasks awaits the potato. He will handle them all by:",
+        "question": "A long list of tasks awaits the potato. He will handle them by:",
         "choice1": "Crumbling under the pressure of everything.",
         "choice2": "Trying to find his lost pen to get started on the tasks.",
         "choice3": "Coming up with a star strategy to solve everything efficiently.",
@@ -25,55 +25,55 @@
     },
     {
         "id": "4",
-        "question": "Ding! A close spud bud rants in their group chat his problems. The potato has the following reaction:",
+        "question": "Ding! A close spud bud rants about his problems. The potato has the following reaction:",
         "choice1": "Manages to calm and comfort his buddy easily.",
-        "choice2": "Immediately understands the issue that his buddy is facing and offers solutions.",
+        "choice2": "Immediately understands the issue and offers solutions.",
         "choice3": "Remains unbothered by the little ranting going on.",
         "choice4": "Feels bad for his buddy and sends emotional support stickers in the chat."
     },
     {
         "id": "5",
-        "question": "It's finally lunch time. The potato goes out to get his lunch. His typical lunch run includes:",
-        "choice1": "Talking to the neighbours and store owners he meets along the way.",
+        "question": "It's finally lunch time. The potato goes out to get his lunch, which includes:",
+        "choice1": "Talking to the neighbours and store owners along the way.",
         "choice2": "Skipping along the streets and humming his favorite tunes.",
         "choice3": "Trying out a new food chain with a menu he doesn't understand.",
-        "choice4": "Spending 5 minutes trying to find his house keys before going out for lunch."
+        "choice4": "Spending 5 minutes finding his house keys before going out."
     },
     {
         "id": "6",
-        "question": "The potato is back to work and faces a challenge in his big boy corporate job. He tackles this difficulty by:",
+        "question": "The potato is back to work and faces a challenge in his big boy corporate job. He tackles it by:",
         "choice1": "Spending a long time trying to understand the challenge fully.",
-        "choice2": "Creatively coming up with a unique solution for the problem.",
+        "choice2": "Creatively coming up with a unique solution.",
         "choice3": "Raging at the silly spud that caused this challenge for him to solve.",
-        "choice4": "Talking to a bunch of different spuds to investigate and solve the issue."
+        "choice4": "Talking to different spuds to investigate and solve the issue."
     },
     {
         "id": "7",
-        "question": "Eventually, the potato manages to overcome the problem and receives praise and recognition for it. He feels:",
+        "question": "Eventually, the potato overcomes the problem and receives praise for it. He feels:",
         "choice1": "Happy to be recognised as the key problem-solver.",
         "choice2": "Relieved that the spud that caused the problem is out of trouble.",
-        "choice3": "Distracted as he searches for his phone to reply to the praises.",
-        "choice4": "Stressed because it takes him a while to calm down after a tough situation."
+        "choice3": "Distracted as he searches for his phone to reply messages.",
+        "choice4": "Stressed because he takes a while to calm down after a tough situation."
     },
     {
         "id": "8",
-        "question": "In the evening, the potato goes out for a little spuds gathering to unwind. The gathering proceeds with:",
+        "question": "At night, the potato goes out for a lil spuds gathering. The gathering includes:",
         "choice1": "The potato sharing about his tough day and crisis averted.",
         "choice2": "The potato listening to the other spuds share interesting details about their day.",
-        "choice3": "The potato missing a good part of the conversations because he arrived late.",
+        "choice3": "The potato missing a good part of the conversations because he was late.",
         "choice4": "The potato feeling happy about spending time with the spuds."
     },
     {
         "id": "9",
-        "question": "At the end of the long day, the potato finishes it off with:",
+        "question": "The potato ends the long day with:",
         "choice1": "Quiet alone time to sit with his lil thoughts.",
-        "choice2": "Reflecting on the connections he has made with other spuds that day.",
-        "choice3": "Looking through the pretty pictures that he has taken throughout his day.",
-        "choice4": "Remembering the funny conversations and delicious lunch he enjoyed that day."
+        "choice2": "Reflecting on the connections he has made that day.",
+        "choice3": "Looking through the pictures that he took throughout his day.",
+        "choice4": "Remembering the funny conversations and delicious lunch he enjoyed."
     },
     {
         "id": "10",
-        "question": "The potato stares at the motivational poster on his ceiling and gradually falls back into his deep slumber. The poster reads:",
+        "question": "Before bedtime, the potato stares at the motivational poster on his ceiling, which reads:",
         "choice1": "Take deep breaths, everything will be okay.",
         "choice2": "Slow and steady, hard work pays off.",
         "choice3": "Do good, feel good.",
