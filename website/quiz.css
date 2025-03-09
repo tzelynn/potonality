@@ -1,7 +1,7 @@
 .choice-container {
     /* display: flex; */
     margin-top: 0.5rem;
-    width: 80%;
+    width: 90%;
     font-size: 2.4rem;
     text-align: center;
 }
@@ -86,15 +86,6 @@
     transition: width 0.3s ease;
 }
 
-#loader {
-    border: 1.6rem solid white;
-    border-radius: 50%;
-    border-top: 1.6rem solid rgb(0, 0, 0);
-    width: 12rem;
-    height: 12rem;
-    animation: spin 1.5s linear infinite;
-}
-
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -104,8 +95,12 @@
     }
 }
 
-#quiz {
+#quiz:not([hidden]) {
     display: none;
+}
+
+#quiz[hidden] {
+    visibility: hidden;
 }
 
 img {

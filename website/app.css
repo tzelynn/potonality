@@ -19,22 +19,19 @@
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
     margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 4rem;
-    margin-bottom: 1rem;
     margin-top: 5rem;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
 h1 > span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h2 {
@@ -53,16 +50,14 @@ h2 {
     min-height: 100vh;
     height: 100%;
     display: flex;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 100rem;
     margin: 0 auto; /* adds padding to allow the max width to be in center of screen */
 }
 
 .container > * {
-    width: 80%;
+    width: 90%;
 }
 
 .flex-column {
@@ -81,11 +76,23 @@ h2 {
     align-items: center;
 }
 
-/* html, body {
-    height: 100%;
-    align-items: center;
-} */
 
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid rgb(0, 0, 0);
+    width: 12rem;
+    height: 12rem;
+    animation: spin 1.5s linear infinite;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 /* buttons */
 

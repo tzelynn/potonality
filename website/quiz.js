@@ -14,8 +14,10 @@ let questionCounter = -1;
 let availableQuestions = [];
 let previousChoice;
 let collectedAnswers = {};
-
 let questions = [];
+const MAX_QUESTIONS = 2;
+
+// Fetch questions in advance
 fetch("assets/questions.json")
     .then(res => res.json())
     .then(loadedQuestions => {
@@ -26,7 +28,6 @@ fetch("assets/questions.json")
         console.error(err);
     });
 
-const MAX_QUESTIONS = 2;
 
 let startQuiz = () => {
     questionCounter = -1;
@@ -36,10 +37,13 @@ let startQuiz = () => {
     getNewQuestion();
 }
 
+
 let getNewQuestion = () => {
+    loader.style.display = "flex";
+    quiz.hidden = true;
     if (questionCounter === availableQuestions.length - 1) {
         localStorage.setItem("collectedAnswers", JSON.stringify(collectedAnswers));
-        return window.location.assign('end.html')
+        return window.location.assign('end.html', 500)
     }
     if (questionCounter >= 0) {
         navBack.hidden = false;
@@ -66,11 +70,13 @@ let getNewQuestion = () => {
     progressBarFull.style.width = `
         ${(questionCounter + 1) / availableQuestions.length * WIDTH}%`
 
+    loader.style.display = "none";
     progressBar.hidden = false;
+    quiz.hidden = false;
     quiz.style.display = "flex";
-    loader.hidden = true;
     selectAnswer();
 }
+
 
 let getPrevQuestion = () => {
     if (questionCounter > 1) {
@@ -98,11 +104,13 @@ let getPrevQuestion = () => {
     selectAnswer(currentQuestion);
 }
 
+
 let selectAnswer = () => {
     choices.forEach(choice => {
         choice.addEventListener("click", selectChoiceHandler)
     })
 }
+
 
 let selectChoiceHandler = ev => {
     if (previousChoice) {
@@ -120,12 +128,15 @@ let selectChoiceHandler = ev => {
     navNext.hidden = false;
 }
 
+
 navNext.addEventListener("click", ev => {
     choices.forEach(choice => {
         choice.removeEventListener("click", selectChoiceHandler);
     })
     getNewQuestion();
 })
+
+
 navBack.addEventListener("click", ev => {
     choices.forEach(choice => {
         choice.removeEventListener("click", selectChoiceHandler);

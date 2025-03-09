@@ -1,35 +1,35 @@
 [
     {
         "id": "1",
-        "question": "It's 8am. A brand new day with many things to do for this busy potato. Would you:",
-        "choice1": "Violently shake the potato awake. He was supposed to wake up an hour ago!",
+        "question": "It's 8am. A brand new day for this busy potato. Would you:",
+        "choice1": "Violently shake the potato awake.",
         "choice2": "Let the poor potato rest for another 15 minutes.",
-        "choice3": "Gently wake the lil guy so he can get started on all his activities.",
-        "choice4": "Lightly prodding the potato is warranted, but allow it an additional brief repose should the need arise."
+        "choice3": "Gently wake the lil guy so he doesn't oversleep.",
+        "choice4": "Lightly prod the potato, but allow it a brief repose should the need arise."
     },
     {
         "id": "2",
-        "question": "The potato wakes up from his deep slumber. What will his first actions of the day be:",
+        "question": "The potato wakes up from his deep slumber. His first actions of the day are:",
         "choice1": "Sigh and sob about the sorrows of the world.",
-        "choice2": "Pick up the soft toys that have been cruelly kicked off the bed by the sleeping potato.",
-        "choice3": "Scroll social media and see what fellow potatoes are complaining about in their lives.",
-        "choice4": "Pick up the phone and text all his spud buds about his upcoming day."
+        "choice2": "Pick up the soft toys that he cruelly kicked off the bed.",
+        "choice3": "Scroll social media and see what fellow potatoes are complaining about.",
+        "choice4": "Text all his spud buds about his upcoming day."
     },
     {
         "id": "3",
-        "question": "A long list of tasks awaits the potato. How will he handle them all:",
-        "choice1": "Crumble under the pressure of everything.",
-        "choice2": "Try to find his lost pen to get started on the tasks.",
-        "choice3": "Come up with a star strategy to solve all the problems that need to be solved quickly.",
-        "choice4": "Succumb to the sudden urge to take a walk around the house before getting started on his tasks."
+        "question": "A long list of tasks awaits the potato. He will handle them all by:",
+        "choice1": "Crumbling under the pressure of everything.",
+        "choice2": "Trying to find his lost pen to get started on the tasks.",
+        "choice3": "Coming up with a star strategy to solve everything efficiently.",
+        "choice4": "Succumbing to the sudden urge to take a walk around the house."
     },
     {
         "id": "4",
-        "question": "Ding! A close spud bud rants in their group chat about some problems they are facing. The potato has the following reaction:",
+        "question": "Ding! A close spud bud rants in their group chat his problems. The potato has the following reaction:",
         "choice1": "Manages to calm and comfort his buddy easily.",
-        "choice2": "Immediately understands the issue that his buddy is facing and offers possible solutions.",
+        "choice2": "Immediately understands the issue that his buddy is facing and offers solutions.",
         "choice3": "Remains unbothered by the little ranting going on.",
-        "choice4": "Feels bad about his buddy going through his troubles and sends emotional support stickers in the chat."
+        "choice4": "Feels bad for his buddy and sends emotional support stickers in the chat."
     },
     {
         "id": "5",
@@ -42,34 +42,34 @@
     {
         "id": "6",
         "question": "The potato is back to work and faces a challenge in his big boy corporate job. He tackles this difficulty by:",
-        "choice1": "Spending a large amount of time trying to understand the challenge fully and properly.",
-        "choice2": "Letting his creative juices flow to come up with a unique solution for the problem.",
+        "choice1": "Spending a long time trying to understand the challenge fully.",
+        "choice2": "Creatively coming up with a unique solution for the problem.",
         "choice3": "Raging at the silly spud that caused this challenge for him to solve.",
         "choice4": "Talking to a bunch of different spuds to investigate and solve the issue."
     },
     {
         "id": "7",
-        "question": "Eventually, the potato manages to overcome the problem and receives praise and recognition for it. He feels strongly:",
+        "question": "Eventually, the potato manages to overcome the problem and receives praise and recognition for it. He feels:",
         "choice1": "Happy to be recognised as the key problem-solver.",
-        "choice2": "Relieved that the spud that caused the problem will no longer have to live in guilt.",
-        "choice3": "Distracted as he searches for his phone to reply to the kind messages.",
+        "choice2": "Relieved that the spud that caused the problem is out of trouble.",
+        "choice3": "Distracted as he searches for his phone to reply to the praises.",
         "choice4": "Stressed because it takes him a while to calm down after a tough situation."
     },
     {
         "id": "8",
-        "question": "In the evening, the potato goes out for a little spuds gathering to unwind after a long day. The gathering proceeds with:",
+        "question": "In the evening, the potato goes out for a little spuds gathering to unwind. The gathering proceeds with:",
         "choice1": "The potato sharing about his tough day and crisis averted.",
         "choice2": "The potato listening to the other spuds share interesting details about their day.",
         "choice3": "The potato missing a good part of the conversations because he arrived late.",
-        "choice4": "The potato feeling cheery as always about spending time with the spuds and having an overall good day."
+        "choice4": "The potato feeling happy about spending time with the spuds."
     },
     {
         "id": "9",
         "question": "At the end of the long day, the potato finishes it off with:",
         "choice1": "Quiet alone time to sit with his lil thoughts.",
-        "choice2": "Reflecting on the spuds he managed to helped and the strong bonds he has forged that day.",
+        "choice2": "Reflecting on the connections he has made with other spuds that day.",
         "choice3": "Looking through the pretty pictures that he has taken throughout his day.",
-        "choice4": "Remembering funny conversations and delicious lunch he got to enjoy that day."
+        "choice4": "Remembering the funny conversations and delicious lunch he enjoyed that day."
     },
     {
         "id": "10",

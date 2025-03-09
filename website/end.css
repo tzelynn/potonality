@@ -5,6 +5,7 @@
     gap: 1rem;
     width: 40rem;
     min-width: 40rem;
+    max-width: 90%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -78,4 +79,8 @@
     display: flex;
     justify-content: center;
     margin-top: 5px; /* Adds space above the button */
+}
+
+#endContents {
+    margin-top: 0;
 }
